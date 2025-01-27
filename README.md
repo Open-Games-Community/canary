@@ -10,8 +10,8 @@
 [![GitHub](https://img.shields.io/github/license/opentibiabr/canary)](https://github.com/opentibiabr/canary/blob/main/LICENSE)
 
 ## Compiling Windows VCPKG already pre-installed:
-[Download Pre-installed Vcpkg Windows](https://drive.google.com/file/d/1EQdPmxllCwahX9fSuxM_1ihWPOQ91NL4/view?usp=sharing)
-[Clean Vcpkg - It will be installed after opening .sln file on visual studio 2022](https://drive.google.com/file/d/1Pu7hC_iMEaYLLidRcAeQDfL5X1flZAoI/view?usp=sharing)
+* [Download Pre-installed Vcpkg Windows](https://drive.google.com/file/d/1EQdPmxllCwahX9fSuxM_1ihWPOQ91NL4/view?usp=sharing)
+* [Clean Vcpkg - It will be installed after opening .sln file on visual studio 2022](https://drive.google.com/file/d/1Pu7hC_iMEaYLLidRcAeQDfL5X1flZAoI/view?usp=sharing)
 
 Put vcpkg folder on C:\  and follow the compilation about compiling on windows: [Wiki](https://github.com/opentibiabr/canary/wiki).
 
