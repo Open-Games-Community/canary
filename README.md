@@ -9,6 +9,18 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/opentibiabr/canary)
 [![GitHub](https://img.shields.io/github/license/opentibiabr/canary)](https://github.com/opentibiabr/canary/blob/main/LICENSE)
 
+## Compiling Windows VCPKG already pre-installed:
+[Download Vcpkg Windows]()
+
+Put vcpkg folder on C:\  and follow the compilation about compiling on windows: [Wiki](https://github.com/opentibiabr/canary/wiki).
+
+Any case here i leave the tutorial if it changes in future:
+
+Open cmd: write `cd C:\vcpkg`, then `.\bootstrap-vcpkg.bat` after `.\vcpkg integrate install`.
+
+Go to windows search for "System Variables", configuration, the second white block check for a variable called VCPKG_ROOT, if it doesnt exist, create a new one then insert the path of C:\vcpkg.
+You can now compile.
+
 OpenTibiaBR - Canary is a free and open-source MMORPG server emulator written in C++. It is a fork of the [OTServBR-Global](https://github.com/opentibiabr/otservbr-global) project. To connect to the server and to take a stable experience, you can use [mehah's otclient](https://github.com/mehah/otclient)
 or [tibia client](https://github.com/dudantas/tibia-client/releases/latest) and if you want to edit something, check
 our [customized tools](https://docs.opentibiabr.com/opentibiabr/downloads/tools). If you want to edit the map, use our own [remere's map editor](https://github.com/opentibiabr/remeres-map-editor/).
